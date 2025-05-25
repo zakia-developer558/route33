@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function AutomationFeatures() {
   return (
-    <section className="bg-[#fff2ef] py-16 px-16">
+    <section className="bg-[#fff2ef] py-16 px-16 w-full">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
@@ -15,8 +15,8 @@ export default function AutomationFeatures() {
         </div>
 
         {/* Navigation Pills */}
-        <div className="flex justify-center mb-12">
-          <div className="border-2 border-gray-200 rounded-full p-1 inline-flex">
+        <div className="flex justify-center  mb-12">
+          <div className="border-2 border-gray-200 overflow-x-auto rounded-full p-1 inline-flex">
             <Button variant="default" className="rounded-full px-6 py-2 text-sm font-medium">
               AI Agent Categories
             </Button>
