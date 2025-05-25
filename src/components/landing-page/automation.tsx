@@ -13,27 +13,28 @@ export default function AutomationFeatures() {
             across domains. Here's how:
           </CardDescription>
         </div>
-
         {/* Navigation Pills */}
-        <div className="flex justify-center  mb-12">
-          <div className="border-2 border-gray-200 overflow-x-auto rounded-full p-1 inline-flex">
-            <Button variant="default" className="rounded-full px-6 py-2 text-sm font-medium">
-              AI Agent Categories
-            </Button>
-            <Button variant="ghost" className="rounded-full px-6 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
-              Creative Automation
-            </Button>
-            <Button variant="ghost" className="rounded-full px-6 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
-              Smart Data Sync
-            </Button>
-            <Button variant="ghost" className="rounded-full px-6 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
-              Workforce Mobility
-            </Button>
-            <Button variant="ghost" className="rounded-full px-6 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
-              AI for M&A Strategy
-            </Button>
-          </div>
-        </div>
+<div className="flex justify-center mb-8 sm:mb-12">
+  <div className="border-2 border-gray-200 rounded-full p-1 inline-flex overflow-x-auto scrollbar-hide">
+    <div className="flex flex-nowrap space-x-1">
+      <Button variant="default" className="rounded-full px-4 sm:px-6 py-1 sm:py-2 text-xs sm:text-sm font-medium whitespace-nowrap">
+        AI Agent Categories
+      </Button>
+      <Button variant="ghost" className="rounded-full px-4 sm:px-6 py-1 sm:py-2 text-xs sm:text-sm font-medium text-gray-700 hover:bg-gray-50 whitespace-nowrap">
+        Creative Automation
+      </Button>
+      <Button variant="ghost" className="rounded-full px-4 sm:px-6 py-1 sm:py-2 text-xs sm:text-sm font-medium text-gray-700 hover:bg-gray-50 whitespace-nowrap">
+        Smart Data Sync
+      </Button>
+      <Button variant="ghost" className="rounded-full px-4 sm:px-6 py-1 sm:py-2 text-xs sm:text-sm font-medium text-gray-700 hover:bg-gray-50 whitespace-nowrap">
+        Workforce Mobility
+      </Button>
+      <Button variant="ghost" className="rounded-full px-4 sm:px-6 py-1 sm:py-2 text-xs sm:text-sm font-medium text-gray-700 hover:bg-gray-50 whitespace-nowrap">
+        AI for M&A Strategy
+      </Button>
+    </div>
+  </div>
+</div>
 
         {/* Description */}
         <div className="text-center mb-16">

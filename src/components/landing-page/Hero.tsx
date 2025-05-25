@@ -35,7 +35,7 @@ export default function HeroSection() {
                 className="h-full max-h-[350px] w-auto object-contain"
               />
               <p className={cn(
-  "absolute bottom-8 left-1/2 transform -translate-x-1/3",  // Changed from bottom-4 to bottom-8
+  "absolute bottom-8 left-1/2 transform -translate-x-1/3 ",  // Changed from bottom-4 to bottom-8
   "text-xl md:text-2xl font-bold text-[#111184] whitespace-nowrap",
   "leading-38 px-4 py-2"
 )}>
