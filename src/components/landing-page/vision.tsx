@@ -13,7 +13,7 @@ export default function VisionSection() {
       )}>
         {/* Main heading */}
 <h2 className={cn(
-  "text-4xl md:text-3xl font-extrabold text-black-900",
+  "text-3xl md:text-3xl font-extrabold text-black-900",
   "scroll-m-20 tracking-tight -mb-2"
 )}>
   From Vision to Deployment
@@ -21,7 +21,7 @@ export default function VisionSection() {
 
 {/* Subheading */}
 <h2 className={cn(
-  "text-2xl md:text-3xl font-extrabold text-gray-900",
+  "text-3xl md:text-3xl font-extrabold text-gray-900",
   "leading-relaxed",
   "scroll-m-20" 
 )}>
